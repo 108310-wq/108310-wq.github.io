@@ -13,13 +13,14 @@ body{
     text-align: center;
     background-color:lavenderblush;
     margin-top:0;
-    padding:3em 0;
+    padding:2em 0;
     background-image:url(jellyfish1.jpg);
     background-position: center;
     background-size:100% 100% ;
     color:#D53474;
     text-shadow:#F5FDFA 1px 1px 6px;
     text-shadow:#F5FDFA 1px 1px 1px, #F5FDFA -1px 1px 01px, #F5FDFA -1px -1px 01px, #F5FDFA 1px -1px 01px;
+    font-size: 50px;
 }
 .navbar{
     display:flex;
@@ -180,7 +181,7 @@ img {
   top: 50%;
   width: auto;
   margin-top: -22px;
-  padding: 16px;
+  padding: 20px;
   color: white;
   font-weight: bold;
   font-size: 18px;
@@ -242,22 +243,29 @@ img {
   animation-duration: 1.5s;
 }
 iframe {
-    width:100%;
+    width:90%;
     height:50vw;
+    margin:0 auto;
+
+
 }
 button {
-    padding:1.25em;
+    padding:1.65em;
     font-weight: bolder;
-    color:#50121A;
-    background-color:#FCD7DE;
-    border:#3A0519 solid 2px;
-    box-shadow:#50121A 1px 3px 5px;
+    color:#f58bcc;
+    background-color: #FCD7DE;
+
+    border:#FCD7DE solid 2px;
+    
+    box-shadow:#3A0519 1px 3px 5px;
     border-radius:10px;
+    font-size: 20px;
 }
 button:hover {
-    background-color: #fcb9cf;
-    color:#ff4f95;
-    border:#50121A solid 2px;
+    color:#fc8db9;
+    border:#f8e7ea solid 2px;
+    background-color:#f8e7ea;
+
     transform: scale(1.01);
 }
 @keyframes fade {
