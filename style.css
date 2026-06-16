@@ -1,7 +1,7 @@
 body{
     background-color:#F5FDFA;
     margin:0;
-    font-family: "Comic Sans MS";
+    font-family: "Comic Sans MS", "Comic Sans", "Chalkboard", "Chalkboard SE";
     color:#F5FDFA;
     
 }
@@ -155,7 +155,7 @@ img {
     .workImg {
         width:100%;
     }
-    body {
+    body, .navbar {
         font-size:24px;
     }
 }
